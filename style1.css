@@ -59,6 +59,70 @@ h1 {
     z-index: 1;
 }
 
+.bg-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-container::before {
+    content: "";
+    display: block;
+    background-image: 
+        url("bg/bg1.png"),
+        url("bg/bg2.png"),
+        url("bg/bg4.png"),
+        url("bg/bg6.png");
+    background-size: 
+        290px auto,
+        350px auto,
+        220px auto,
+        250px auto;
+    background-position:
+        -40px 0px,
+        300px -100px,
+        790px -80px,
+        1050px 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.40;
+    z-index: 1;
+}
+
+.bg-blob-img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-blob-img::before {
+    content: "";
+    display: block;
+    background-image: 
+        url("bg/plantbg.png"),
+        url("bg/animalbg.png"),
+        url("bg/blob_bg.png"),
+        url("bg/blob_bg1.png");
+    background-size: 
+        300px auto,
+        370px auto,
+        450px auto,
+        500px auto;
+    background-position:
+        1050px 330px,
+        -50px 330px,
+        -100px 300px,
+        1000px 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.70;
+    z-index: 1;
+}
+
 .cells-container {
     text-align: center;
     padding-top: 95px;
