@@ -103,3 +103,102 @@ h1 {
 .center-button {
     width: 240px;
 }
+
+.animal-cell-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 80px 100px 50px 100px;
+    gap: 100px;
+    min-height: calc(100vh - 200px);
+}
+
+.text-section {
+    flex: 0 0 45%;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.text-section h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.description-text {
+    font-family: 'sriracha';
+    font-size: 19px;
+    font-style: italic;
+    line-height: 28px;
+    color: black;
+    max-width: 500px;
+}
+
+.image-section {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.cell-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.plant-cell-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 80px 100px 50px 100px;
+    gap: 100px;
+    min-height: calc(100vh - 200px);
+}
+
+.plant-cell-content .text-section {
+    flex: 0 0 45%;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.plant-cell-content .text-section h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.plant-cell-content .description-text {
+    font-family: 'sriracha';
+    font-size: 19px;
+    font-style: italic;
+    line-height: 28px;
+    color: black;
+    max-width: 500px;
+    margin-bottom: 60px;
+}
+
+.cells-title {
+    font-size: 90px;
+    color: rgba(0, 0, 139, 0);
+    text-align: left;
+    font-family: 'checkpoint';
+    -webkit-text-stroke: 4px black;
+    text-shadow: 6px 6px 0px rgb(255, 162, 57);
+    margin: 0;
+}
+
+.plant-cell-content .image-section {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.plant-cell-content .cell-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
